@@ -1,0 +1,6 @@
+---
+- shell: echo "test - {{ test_param }}"
+  notify: test handler
+
+- meta: flush_handlers
+  when: flush

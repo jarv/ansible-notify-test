@@ -1,0 +1,4 @@
+- hosts: all
+  roles:
+    - { role: test, test_param: "first call to test" }
+    - { role: test, test_param: "second call to test" }
